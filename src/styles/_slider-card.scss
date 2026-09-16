@@ -3,7 +3,7 @@
   right: 0;
   bottom: env(save-area-inset-bottom, 0);
   width: 100%;
-  height: clamp(120px, 40dvh, 43%);
+  height: clamp(100px, 30dvh, 43%);
 
   @include on-small-desktop {
     height: 87%;
@@ -44,6 +44,7 @@
   &__slide {
     flex: 0 0 33.33%;
     height: 100%;
+    width: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

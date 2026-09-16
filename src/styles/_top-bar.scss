@@ -29,7 +29,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    width: 50%;
+    width: calc(100% - 160px);
     background-color: var(--header-background);
     border: 2px solid $header-text-color;
     z-index: 2;
